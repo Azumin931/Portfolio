@@ -1,0 +1,168 @@
+* {
+	margin-left: 10px;
+	padding: 0px;
+}
+.rw{
+	display: flex;
+	background-image: linear-gradient(to right, aqua, red);
+	text-align: center;
+}
+.col h3{
+	margin-top: 30px;
+}
+.navbar-toggle{
+	display: none;
+}
+.navbar-brand{
+	text-decoration: none;
+}
+.nav{
+	display: flex;
+	list-style: none;
+	align-items: center;
+	justify-content: center;
+}
+.nav img{
+	margin-top: -20px;
+}
+.nav h1{
+	margin-top: 0px;
+}
+.nav a{
+	text-decoration: none;
+}
+.row{
+	display: flex;
+
+}
+.col{
+	padding-left: 20px;
+}
+.col button{
+	margin-top: 15px;
+}
+.col span{
+	color: #0b00c7;
+}
+.imi {
+	border-radius: 100%;
+	margin-top: 40px;
+}
+.op{
+	border-radius: 100%;
+}
+.PP{
+	text-align: center;
+	margin-bottom: 70px;
+}
+.col-1{
+	margin-left: 50px;
+	box-shadow: 0 0 30px 0px;
+}
+.col-1 img{
+	margin-top: -50px;
+}
+.col-1 img h2 p h4{
+	padding-left: -50px;
+}
+.col-1 a{
+	text-decoration: none;
+}
+.pol{
+	text-align: center;
+}
+.iop{
+	margin-left: 70%;
+}
+.poi{
+	margin-bottom: -30px;
+	margin-top: 10px;
+}
+.pop{
+	text-align: center;
+}
+.ppo{
+	margin-left: 80px;
+	margin-top: 30px;
+}
+
+.col-2 {
+	box-shadow: 0 0 30px 0px red;
+	padding: 20px;
+}
+.blu{
+	background-color: #4058ae;
+	cursor: pointer;
+	border-radius: 30%;
+}
+.aqua{
+	background-color: aqua;
+	cursor: pointer;
+	border-radius: 30%;
+}
+.wee{
+	border-radius: 30%;
+}
+.col p{
+	font-size: 20px;
+}
+.asa{
+	width: 175px;
+	height: 200px;
+}
+
+
+
+
+/*--phone--*/
+
+@media(max-width:600px)
+{
+	*{
+		margin: 1px;
+		padding: 0px;
+	}
+	.navbar-toggle{
+	display: block;
+}
+.navbar{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.row{
+	display: block;
+}
+.nav{
+	display: block;
+	list-style: none;
+}
+.col button{
+	margin-top: 20px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.col p{
+	font-size: 20px;
+}
+.col-1{
+	margin-left: 10px;
+	box-shadow: 0 0 30px 0px;
+	padding: 10px;
+	margin-top: 70px;
+}
+.col-2{
+	display: block;
+	margin-top: 30px;
+}
+.ppo{
+	margin-left: 10px;
+	margin-top: 30px;
+	display: inline-block;
+	padding: 35px;
+}
+.nav img{
+	margin-left: 85%;
+	margin-top: -70px;
+}
+}
